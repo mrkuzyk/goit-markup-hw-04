@@ -445,6 +445,11 @@ header {
   padding-bottom: 60px;
 }
 
+.footer-block {
+  display: flex;
+  align-items: baseline;
+}
+
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
@@ -488,6 +493,55 @@ header {
 
 .footer-item:not(:last-child) {
   margin-bottom: 9px;
+}
+
+.footer-social-text {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--header-color);
+  margin-bottom: 20px;
+}
+
+.footer-block-right {
+  margin-left: 70px;
+}
+
+.social-item {
+  width: 44px;
+  height: 44px;
+  margin-left: 10px;
+}
+
+.social-item:first-child {
+  margin-left: 0;
+}
+
+.footer-social-link {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: #ffffff;
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: var(--accent-color);
+}
+
+.social-icon {
+  fill: #ffffff;
+}
+
+.footer-social-link:hover .social-icon,
+.footer-social-link:focus .social-icon {
+  fill: #ffffff;
 }
 
 /* --------------портфоліо проекти----------------- */
