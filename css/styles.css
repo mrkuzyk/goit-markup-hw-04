@@ -179,6 +179,14 @@ header {
   background-color: var(--page-background-color);
   padding-top: 200px;
   padding-bottom: 200px;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/fon.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .hero-title {
@@ -241,16 +249,10 @@ header {
   margin-bottom: 30px;
   background: #f5f4fa;
   border-radius: 4px;
-  padding: auto;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
-/* .benefits-icon {
-  width: 70px;
-  height: 66px;
-} */
 
 .ben-caption {
   font-weight: bold;
