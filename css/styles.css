@@ -147,6 +147,28 @@ header {
   margin-right: 50px;
 }
 
+.header-mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+
+.header-mail:hover,
+.header-mail:focus {
+  color: var(--accent-color);
+}
+
+.header-mail:hover .mail-icon,
+.header-mail:focus .mail-icon {
+  fill: var(--accent-color);
+}
+
+.header-icon {
+  fill: var(--secondary-text-color);
+}
+
 .header-tel {
   font-weight: 500;
   font-size: 14px;
@@ -160,17 +182,9 @@ header {
   color: var(--accent-color);
 }
 
-.header-mail {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--secondary-text-color);
-}
-
-.header-mail:hover,
-.header-mail:focus {
-  color: var(--accent-color);
+.header-tel:hover .tel-icon,
+.header-tel:focus .tel-icon {
+  fill: var(--accent-color);
 }
 
 /* --------------герой----------------- */
@@ -587,6 +601,12 @@ header {
   flex-basis: calc(100% / 3 - 30px);
   margin-top: 30px;
   margin-left: 30px;
+}
+
+.project-item:hover,
+.project-item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .project-blok {
