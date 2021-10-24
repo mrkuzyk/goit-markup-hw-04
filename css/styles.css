@@ -392,6 +392,51 @@ header {
   fill: #ffffff;
 }
 
+/* --------------клієнти----------------- */
+
+.client {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.client-list {
+  display: flex;
+}
+
+.client-item {
+  width: 170px;
+  height: 92px;
+  padding: 16px 32px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-left: 30px;
+}
+
+.client-item:hover,
+.client-item:focus {
+  border: 1px solid var(--accent-color);
+}
+
+.client-icon {
+  fill: #afb1b8;
+}
+
+.client-item:hover .client-icon,
+.client-item:focus .client-icon {
+  fill: var(--accent-color);
+}
+
+.client-item:first-child {
+  margin-left: 0;
+}
+
+.client-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* --------------футер----------------- */
 
 .footers {
