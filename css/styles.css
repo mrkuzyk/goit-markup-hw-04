@@ -235,6 +235,23 @@ header {
   margin-left: 30px;
 }
 
+.benefits-box {
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  padding: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .benefits-icon {
+  width: 70px;
+  height: 66px;
+} */
+
 .ben-caption {
   font-weight: bold;
   font-size: 14px;
