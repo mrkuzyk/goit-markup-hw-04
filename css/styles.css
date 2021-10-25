@@ -153,6 +153,8 @@ header {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
+  display: flex;
+  align-items: center;
 }
 
 .header-mail:hover,
@@ -167,6 +169,7 @@ header {
 
 .header-icon {
   fill: var(--secondary-text-color);
+  margin-right: 10px;
 }
 
 .header-tel {
@@ -175,6 +178,8 @@ header {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
+  display: flex;
+  align-items: center;
 }
 
 .header-tel:hover,
@@ -397,7 +402,7 @@ header {
   background-color: var(--accent-color);
 }
 
-.social-icon {
+.social-link > .social-icon {
   fill: #afb1b8;
 }
 
@@ -411,6 +416,11 @@ header {
 .client {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.client-title {
+  margin-top: 0;
+  margin-bottom: 50px;
 }
 
 .client-list {
@@ -427,8 +437,8 @@ header {
   margin-left: 30px;
 }
 
-.client-item:hover,
-.client-item:focus {
+.client-link:hover,
+.client-link:focus {
   border: 1px solid var(--accent-color);
 }
 
@@ -436,8 +446,8 @@ header {
   fill: #afb1b8;
 }
 
-.client-item:hover .client-icon,
-.client-item:focus .client-icon {
+.client-link:hover .client-icon,
+.client-link:focus .client-icon {
   fill: var(--accent-color);
 }
 
